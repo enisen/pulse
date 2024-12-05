@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-explicit-any: 0 */  // --> OFF
 "use client";
 import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -20,7 +21,6 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
   CartesianGrid,
   Cell,
   ResponsiveContainer,
@@ -92,19 +92,6 @@ const ProjectPlanner = () => {
   const taskColors = {
     task: "#1e293b", // Koyu slate rengi
     subtask: "#475569", // Orta koyu slate rengi
-  };
-
-  // İki tarih arasındaki iş günü sayısını hesaplama
-  const getBusinessDaysBetween = (startDate: Date, endDate: Date): number => {
-    let businessDays = 0;
-    const current = new Date(startDate);
-    while (current <= endDate) {
-      if (current.getDay() !== 0 && current.getDay() !== 6) {
-        businessDays++;
-      }
-      current.setDate(current.getDate() + 1);
-    }
-    return businessDays;
   };
 
   // Güvenli tarih formatı dönüşümü
@@ -543,16 +530,6 @@ const ProjectPlanner = () => {
       });
     };
 
-    const getTeamsForSubTask = (data: any) => {
-      return ganttData.tasks.filter(
-        (task) => task.level === 2 && task.parentId === data.id
-      );
-    };
-
-    // Toplam efor hesaplama
-    const calculateTotalEffort = (teams: any[]) => {
-      return teams.reduce((sum, team) => sum + (team.effort || 0), 0);
-    };
 
     const getParentTaskName = (task: any) => {
       // Önce parent subtask'ı bul
@@ -589,7 +566,7 @@ const ProjectPlanner = () => {
       }
 
       const ticks = [];
-      let currentDate = new Date(startDate);
+      const currentDate = new Date(startDate);
 
       while (currentDate <= endDate) {
         ticks.push(currentDate.getTime());

@@ -1,5 +1,6 @@
 
-// components/components/ComponentsList.tsx
+/* eslint @typescript-eslint/no-explicit-any: 0 */  // --> OFF
+
 'use client';
 
 import { CommonComponent } from '@/types';

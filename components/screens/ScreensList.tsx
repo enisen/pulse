@@ -1,3 +1,5 @@
+/* eslint @typescript-eslint/no-explicit-any: 0 */  // --> OFF
+
 'use client';
 
 import { Screen } from '@/types';

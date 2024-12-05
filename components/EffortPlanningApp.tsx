@@ -27,7 +27,6 @@ import {
   Upload, 
   ChevronRight, 
   ChevronDown,
-  Table as TableIcon 
 } from "lucide-react";
 import {
   Dialog,
@@ -312,10 +311,9 @@ const ProjectEstimationTool = () => {
     const ganttData = useMemo(() => {
       let currentDate = new Date(startDate);
       const data = [];
-      let order = 0;
   
       const addBusinessDays = (date, days) => {
-        let currentDate = new Date(date);
+        const currentDate = new Date(date);
         let remainingDays = days;
         
         while (remainingDays > 0) {
@@ -371,6 +369,7 @@ const ProjectEstimationTool = () => {
       });
   
       return data;
+      /* eslint-disable-next-line */
     }, [screenGroups, taskGroups, holidays, startDate]);
   
     // Calculate total project duration
