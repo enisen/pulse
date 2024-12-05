@@ -713,7 +713,7 @@ const ProjectPlanner = () => {
 
               {/* Genel Görünüm Tab */}
               <TabsContent value="overall">
-                <div className="h-[3000px] mt-6">
+                <div className="h-[5000px] mt-6">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                       data={ganttData.tasks}
