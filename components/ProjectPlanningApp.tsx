@@ -1120,7 +1120,7 @@ const ProjectPlanner = () => {
                 const teamData = prepareTeamGanttData(team);
                 return (
                   <TabsContent key={team} value={team}>
-                    <div className="h-[1000px] mt-6">
+                    <div className="h-[2000px] mt-6">
                       <ResponsiveContainer width="100%" height="100%">
                         <BarChart
                           data={teamData.tasks}
