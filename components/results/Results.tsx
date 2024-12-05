@@ -1,13 +1,14 @@
 'use client';
 
-import { Screen, CommonComponent, Settings } from '@/types';
+import { Screen, CommonComponent } from '@/types';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Calculator } from 'lucide-react';
 
 interface ResultsProps {
   screens: Screen[];
   components: CommonComponent[];
-  settings: Settings;
+  //eslint-disable-next-line
+  settings: any;
 }
 
 const complexityMultipliers = {
