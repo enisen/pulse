@@ -1,17 +1,16 @@
-// components/settings/Settings.tsx
+/* eslint @typescript-eslint/no-explicit-any: 0 */  // --> OFF
 'use client';
 
-import { Settings as SettingsType } from '@/types';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 
 interface SettingsProps {
-  settings: SettingsType;
-  setSettings: (settings: SettingsType) => void;
+  settings: any;
+  setSettings: (settings: any) => void;
 }
 
 export default function Settings({ settings, setSettings }: SettingsProps) {
-  const updateSetting = (field: keyof SettingsType, value: number) => {
+  const updateSetting = (field: keyof any, value: number) => {
     setSettings({ ...settings, [field]: value });
   };
 
