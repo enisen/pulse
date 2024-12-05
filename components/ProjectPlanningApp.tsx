@@ -134,8 +134,8 @@ const ProjectPlanner = () => {
     });
 
     const flattenedTasks: any[] = [];
-    let minDate: Date | null = null;
-    let maxDate: Date | null = null;
+    let minDate: Date | null | any = null;
+    let maxDate: Date | null | any = null;
 
     // Ana taskları işle
     project.tasks.forEach((task) => {
