@@ -64,7 +64,7 @@ const BASE_SCREEN_DAYS = {
   complex: 5
 };
 
-const formatDate = (date) => {
+const formatDate = (date: Date) => {
   return new Date(date).toLocaleDateString('tr-TR', {
     month: 'short',
     day: 'numeric'
