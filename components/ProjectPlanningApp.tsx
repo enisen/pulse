@@ -139,8 +139,8 @@ const ProjectPlanner = () => {
 
     // Ana taskları işle
     project.tasks.forEach((task) => {
-      let taskStartDate: Date | null = null;
-      let taskEndDate: Date | null = null;
+      let taskStartDate: Date | null | any = null;
+      let taskEndDate: Date | null | any = null;
 
       // Önce tüm alt taskları ve takımları işleyerek ana task'ın tarih aralığını bul
       task.subTasks.forEach((subTask) => {
@@ -161,7 +161,7 @@ const ProjectPlanner = () => {
         flattenedTasks.push({
           id: `task-${task.id}`,
           taskName: task.name,
-          startDate: taskStartDate.getTime(),
+          startDate: taskStartDate.getTime(), 
           endDate: taskEndDate.getTime(),
           level: 0,
           color: "#1e293b",
@@ -170,8 +170,8 @@ const ProjectPlanner = () => {
 
         // 2. Alt taskları ve takımları ekle
         task.subTasks.forEach((subTask) => {
-          let subTaskStartDate: Date | null = null;
-          let subTaskEndDate: Date | null = null;
+          let subTaskStartDate: Date | null | any = null;
+          let subTaskEndDate: Date | null | any = null;
 
           // Alt task'ın tarih aralığını bul
           subTask.teams.forEach((team) => {
@@ -1001,7 +1001,7 @@ const ProjectPlanner = () => {
                         dataKey={(entry) => [entry.startDate, entry.endDate]}
                         name="Süre"
                         minPointSize={2}
-                        onMouseEnter={(data) => {
+                        onMouseEnter={(data: any) => {
                           if (data && data.payload) {
                             if (data.payload.level === 0) {
                               setActiveTaskId(data.payload.id);
@@ -1016,7 +1016,7 @@ const ProjectPlanner = () => {
                           setActiveTaskId(null);
                           setActiveSubTaskId(null);
                         }}
-                        onClick={(data) => {
+                        onClick={(data: any) => {
                           if (
                             data &&
                             data.payload &&
