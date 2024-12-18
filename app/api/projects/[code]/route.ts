@@ -11,6 +11,6 @@ export async function GET(request: NextRequest, props: { params: Promise<{ code:
     const jsonData = await fs.readFile(filePath, 'utf-8')
     return NextResponse.json(JSON.parse(jsonData))
   } catch (error) {
-    return NextResponse.json({ error: 'Project not found' }, { status: 404 })
+    return NextResponse.json({ error: 'Project not found. Error message:' + error }, { status: 404 })
   }
 }
