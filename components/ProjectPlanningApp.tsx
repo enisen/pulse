@@ -1,6 +1,6 @@
 /* eslint @typescript-eslint/no-explicit-any: 0 */  // --> OFF
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -66,13 +66,62 @@ interface Project {
   tasks: Task[];
 }
 
-const ProjectPlanner = () => {
+
+
+interface ProjectPlannerProps {
+  projectCode?: string;
+}
+
+const ProjectPlanner: React.FC<ProjectPlannerProps> = ({ projectCode }) => {
   const [project, setProject] = useState<Project>({
     id: "1",
     name: "",
     description: "",
     tasks: [],
   });
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  // Proje koduna göre veriyi çekme
+  useEffect(() => {
+    const fetchProject = async () => {
+      if (!projectCode) return;
+      
+      setIsLoading(true);
+      setError(null);
+      
+      try {
+        const response = await fetch(`/api/projects/${projectCode}`);
+        if (!response.ok) {
+          throw new Error('Project not found');
+        }
+        const data = await response.json();
+        
+        // Tarihlerin doğru parse edilmesi için
+        const processedData = {
+          ...data,
+          tasks: data.tasks.map((task: Task) => ({
+            ...task,
+            subTasks: task.subTasks.map((subTask: SubTask) => ({
+              ...subTask,
+              teams: subTask.teams.map((team: Team) => ({
+                ...team,
+                startDate: new Date(team.startDate)
+              }))
+            }))
+          }))
+        };
+        
+        setProject(processedData);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchProject();
+  }, [projectCode]);
 
   const [expandedTasks, setExpandedTasks] = useState<string[]>([]);
 
@@ -1363,8 +1412,41 @@ const ProjectPlanner = () => {
     return teams.size;
   };
 
+  if (isLoading) {
+    return (
+      <div className="container mx-auto p-4 flex items-center justify-center min-h-screen">
+        <div className="text-center space-y-4">
+          <div className="text-xl font-medium">Proje yükleniyor...</div>
+          {/* İsterseniz burada bir loading spinnerı ekleyebilirsiniz */}
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container mx-auto p-4 flex items-center justify-center min-h-screen">
+        <div className="text-center space-y-4">
+          <div className="text-xl font-medium text-red-600">Bir hata oluştu</div>
+          <div className="text-gray-600">{error}</div>
+          {projectCode && (
+            <div className="text-sm text-gray-500">
+              Proje Kodu: {projectCode}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto p-4">
+      {projectCode && (
+        <div className="mb-4 text-sm text-gray-500">
+          Proje Kodu: {projectCode}
+        </div>
+      )}
+      
       <Card className="mb-6">
         <CardHeader>
           <CardTitle>Proje Planlama</CardTitle>

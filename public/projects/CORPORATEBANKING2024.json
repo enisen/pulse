@@ -1,0 +1,1062 @@
+{
+  "id": "1",
+  "name": "Faz 1-2-3",
+  "description": "",
+  "tasks": [
+    {
+      "id": "s2rm0ea3w",
+      "name": "Erişim",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "761liyw74",
+          "name": "Müşteri Register",
+          "description": "Islak imzalı müşteri süreci",
+          "teams": [
+            {
+              "id": "fx5covpri",
+              "name": "Texas",
+              "startDate": "2024-12-20T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "zvqhwxmj0",
+              "name": "Codeverse",
+              "startDate": "2024-12-01T00:00:00.000Z",
+              "effort": 23,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "4h0kyns0o",
+          "name": "Müşteri Login",
+          "description": "",
+          "teams": [
+            {
+              "id": "mvudvwmms",
+              "name": "Tomorrow",
+              "startDate": "2024-11-11T00:00:00.000Z",
+              "effort": 15,
+              "isParallel": false
+            },
+            {
+              "id": "f0nuo4s5z",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "b8fkh5c00",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 4,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "qeupev6xf",
+          "name": "Müşteri - Şifremi Unuttum",
+          "description": "",
+          "teams": [
+            {
+              "id": "gw94bi5uc",
+              "name": "Tomorrow",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 14,
+              "isParallel": false
+            },
+            {
+              "id": "q5pjjh5l9",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-20T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "ugkvbm36f",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-30T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "obeydplmr",
+      "name": "Anasayfa",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "pzkwxb2od",
+          "name": "Search",
+          "description": "",
+          "teams": [
+            {
+              "id": "l2im50gu7",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "rjjmeq3s9",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "khq2gfumc",
+          "name": "Hesap Listesi",
+          "description": "",
+          "teams": [
+            {
+              "id": "3ytz1gfoh",
+              "name": "Moneywars",
+              "startDate": "2024-11-25T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "5sljpgmog",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "swnmju4rl",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "240649oy6",
+          "name": "Hesap Hareketleri & Son işlemler",
+          "description": "",
+          "teams": [
+            {
+              "id": "kb1rd3ihu",
+              "name": "Moneywars",
+              "startDate": "2024-11-25T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "d9r9w8kxb",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "m359ybgfl",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "0ye4drxuk",
+          "name": "Kampanyalar",
+          "description": "",
+          "teams": [
+            {
+              "id": "mvv7qvdti",
+              "name": "Texas",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "v44pay1qp",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-20T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "qzc2rekoj",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-31T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "e4l8i7tbj",
+          "name": "Ajanda",
+          "description": "",
+          "teams": [
+            {
+              "id": "un7bpou3d",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "3qjwi4cfz",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "uynqcq5dp",
+      "name": "Profil & Ayarlar",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "vu8vxhqgu",
+          "name": "Firma Bilgileri",
+          "description": "",
+          "teams": [
+            {
+              "id": "8twpp2txp",
+              "name": "Codeverse",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "qnkbp5j4b",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            },
+            {
+              "id": "umf3b3ex5",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "207qn3gxd",
+          "name": "Bildirim İzinleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "1frun4ft1",
+              "name": "Codeverse",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "85zdwhih3",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 2,
+              "isParallel": false
+            },
+            {
+              "id": "csl8qoeip",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 2,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "u0jhgkbh7",
+          "name": "Şifre Değiştirme",
+          "description": "",
+          "teams": [
+            {
+              "id": "vxvdi3o3j",
+              "name": "Tomorrow",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 14,
+              "isParallel": false
+            },
+            {
+              "id": "wf83u9gzh",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            },
+            {
+              "id": "hkm3ejuxp",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "6znhdqh8f",
+          "name": "Güvenlik Sorusu",
+          "description": "",
+          "teams": [
+            {
+              "id": "4p4s2p3ra",
+              "name": "Texas",
+              "startDate": "2025-01-06T00:00:00.000Z",
+              "effort": 9,
+              "isParallel": false
+            },
+            {
+              "id": "64nvt3lrc",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-20T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            },
+            {
+              "id": "c6q8z3lbh",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-22T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "depn0apqj",
+          "name": "Başarısız Login",
+          "description": "",
+          "teams": [
+            {
+              "id": "kgobsz2yn",
+              "name": "Tomorrow",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 14,
+              "isParallel": false
+            },
+            {
+              "id": "pe0bq1fjm",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 2,
+              "isParallel": false
+            },
+            {
+              "id": "m09s13xgt",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-25T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "91ocvxvkb",
+          "name": "Bize Ulaşın",
+          "description": "",
+          "teams": [
+            {
+              "id": "fykvrfbzh",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 2,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "z7j1ntzza",
+      "name": "Para Transferleri",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "ozqr2p6qe",
+          "name": "Kayıtlı Hesap Ekranı",
+          "description": "",
+          "teams": [
+            {
+              "id": "6f6gh0rjc",
+              "name": "Texas",
+              "startDate": "2024-12-20T00:00:00.000Z",
+              "effort": 20,
+              "isParallel": false
+            },
+            {
+              "id": "pgbqlgzk6",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-20T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            },
+            {
+              "id": "58rwp6zfx",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-22T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "nlvc2bayg",
+          "name": "Toplu Dosya Yükleme Ekranı",
+          "description": "",
+          "teams": [
+            {
+              "id": "sovx3ftnp",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "xf9pyxa0s",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-19T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "a61u6ajlr",
+          "name": "Toplu Para Transferi",
+          "description": "",
+          "teams": [
+            {
+              "id": "lcl5wzflp",
+              "name": "Moneywars",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 19,
+              "isParallel": false
+            },
+            {
+              "id": "8d0eftvzx",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-06T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "q4vlizj22",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-15T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "vm1b7rdcn",
+          "name": "Tekil Para Transferi",
+          "description": "",
+          "teams": [
+            {
+              "id": "lxe7v6iuh",
+              "name": "Moneywars",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 19,
+              "isParallel": false
+            },
+            {
+              "id": "ust01jaib",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-30T00:00:00.000Z",
+              "effort": 6,
+              "isParallel": false
+            },
+            {
+              "id": "6uk0v1yht",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-07T00:00:00.000Z",
+              "effort": 4,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "opv8xsges",
+      "name": "Yetki ve Onay Süreçleri",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "berfmye5y",
+          "name": "Kullanıcı Tanımlama",
+          "description": "",
+          "teams": [
+            {
+              "id": "8x140eg9f",
+              "name": "Codeverse",
+              "startDate": "2024-12-16T00:00:00.000Z",
+              "effort": 2,
+              "isParallel": false
+            },
+            {
+              "id": "3ob2w04mz",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-18T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "j84ourjb5",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-30T00:00:00.000Z",
+              "effort": 3,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "34ptsvl8o",
+          "name": "Yetki Tipi CRUD",
+          "description": "",
+          "teams": [
+            {
+              "id": "pwe8sbsvc",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-13T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "9mbkkcf68",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-24T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "xoaj7x1jk",
+          "name": "Kullanıcı Yetki Değişikliği",
+          "description": "",
+          "teams": [
+            {
+              "id": "x2sifji93",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-20T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "2mu4h56eo",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "cg6luk6wn",
+          "name": "Hesap Kart Yetkileri",
+          "description": "",
+          "teams": [
+            {
+              "id": "7efptgewf",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-25T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "23x3elbhh",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-27T00:00:00.000Z",
+              "effort": 4,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "slc3i96ul",
+          "name": "Kullanıcı Yetki Eşitleme",
+          "description": "",
+          "teams": [
+            {
+              "id": "7c9pi2aa7",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "8a3yr81y3",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "tgmh72sck",
+          "name": "Günlük Limit Değişikliği",
+          "description": "",
+          "teams": [
+            {
+              "id": "xmaj3fibi",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-23T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "kddquxeal",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "w5xjkwcet",
+          "name": "Kullanıcı Silme",
+          "description": "",
+          "teams": [
+            {
+              "id": "koebhq1oj",
+              "name": "Backend Arch.",
+              "startDate": "2024-12-19T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "oftxt6yaq",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-26T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "2pbmh38b7",
+      "name": "Ekran ve Menü Tanımları",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "ra0foqt93",
+          "name": "Dinamik Ekran Servisleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "61pq8gdtk",
+              "name": "Backend Arch.",
+              "startDate": "2024-11-18T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "o4uxp23bd",
+              "name": "Frontend Arch.",
+              "startDate": "2024-11-20T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "ssrmi2ra9",
+          "name": "Dinamik Menü Servisleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "nnzlc5vs6",
+              "name": "Backend Arch.",
+              "startDate": "2024-11-28T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "5dez5g1ew",
+              "name": "Frontend Arch.",
+              "startDate": "2024-12-02T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "t1",
+      "name": "Ödemeler",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "st1",
+          "name": "Fatura Ödemeleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "team1",
+              "name": "Tommax",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 19,
+              "isParallel": false
+            },
+            {
+              "id": "team1_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-04T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "team1_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-17T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st2",
+          "name": "Kayıtlı Fatura Listeleme",
+          "description": "",
+          "teams": [
+            {
+              "id": "team2",
+              "name": "Tommax",
+              "startDate": "2024-12-09T00:00:00.000Z",
+              "effort": 19,
+              "isParallel": false
+            },
+            {
+              "id": "team2_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-20T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "team2_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-01-27T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st3",
+          "name": "Tekli ve Toplu Maaş Ödemeleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "team3",
+              "name": "Moneywars",
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 26,
+              "isParallel": false
+            },
+            {
+              "id": "team3_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-03-01T00:00:00.000Z",
+              "effort": 15,
+              "isParallel": false
+            },
+            {
+              "id": "team3_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-03-16T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st4",
+          "name": "Tekli ve Toplu Yemek Ödemeleri",
+          "description": "",
+          "teams": [
+            {
+              "id": "team4",
+              "name": "Moneywars",
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 26,
+              "isParallel": false
+            },
+            {
+              "id": "team4_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-03-03T00:00:00.000Z",
+              "effort": 15,
+              "isParallel": false
+            },
+            {
+              "id": "team4_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-03-24T00:00:00.000Z",
+              "effort": 15,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "t2",
+      "name": "Yatırım İşlemleri (Altın/Döviz)",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "st5",
+          "name": "Kur Geçmişi",
+          "description": "",
+          "teams": [
+            {
+              "id": "team5",
+              "name": "Moneytalks",
+              "startDate": "2025-01-06T00:00:00.000Z",
+              "effort": 11,
+              "isParallel": false
+            },
+            {
+              "id": "team5_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-01-21T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "team5_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-02-05T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st6",
+          "name": "Döviz/Altın Alış-Satış",
+          "description": "",
+          "teams": [
+            {
+              "id": "team6",
+              "name": "Codeverse",
+              "startDate": "2025-01-12T00:00:00.000Z",
+              "effort": 11,
+              "isParallel": false
+            },
+            {
+              "id": "team6_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-03-11T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "team6_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-03-26T00:00:00.000Z",
+              "effort": 12,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "t3",
+      "name": "Vadesiz Katılım Hesap İşlemleri",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "st7",
+          "name": "Vadesiz Hesap Kapama",
+          "description": "",
+          "teams": [
+            {
+              "id": "team7",
+              "name": "Moneywars",
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "team7_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-02-11T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            },
+            {
+              "id": "team7_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-02-18T00:00:00.000Z",
+              "effort": 5,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st8",
+          "name": "Katılım Hesap Açılışı",
+          "description": "",
+          "teams": [
+            {
+              "id": "team8",
+              "name": "Moneywars",
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "team8_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-02-04T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "team8_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-02-17T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "st9",
+          "name": "Katılım Hesaba Virman",
+          "description": "",
+          "teams": [
+            {
+              "id": "team9",
+              "name": "Moneywars",
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "team9_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-02-19T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            },
+            {
+              "id": "team9_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-03-03T00:00:00.000Z",
+              "effort": 7,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "t4",
+      "name": "Para Transferleri - Diğer",
+      "description": "",
+      "subTasks": [
+        {
+          "id": "st11",
+          "name": "Swift",
+          "description": "",
+          "teams": [
+            {
+              "id": "team11",
+              "name": "Moneytalks",
+              "startDate": "2025-01-02T00:00:00.000Z",
+              "effort": 42,
+              "isParallel": false
+            },
+            {
+              "id": "team11_be",
+              "name": "Backend Arch.",
+              "startDate": "2025-03-03T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            },
+            {
+              "id": "team11_fe",
+              "name": "Frontend Arch.",
+              "startDate": "2025-03-17T00:00:00.000Z",
+              "effort": 10,
+              "isParallel": false
+            }
+          ],
+          "dependencies": []
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}
