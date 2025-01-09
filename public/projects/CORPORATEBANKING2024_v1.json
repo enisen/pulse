@@ -749,7 +749,7 @@
             {
               "id": "team1",
               "name": "Tommax",
-              "startDate": "2025-02-03T00:00:00.000Z",
+              "startDate": "2024-12-09T00:00:00.000Z",
               "effort": 19,
               "isParallel": false
             },
@@ -778,21 +778,21 @@
             {
               "id": "team2",
               "name": "Tommax",
-              "startDate": "2025-02-03T00:00:00.000Z",
+              "startDate": "2024-12-09T00:00:00.000Z",
               "effort": 19,
               "isParallel": false
             },
             {
               "id": "team2_be",
               "name": "Backend Arch.",
-              "startDate": "2025-03-07T00:00:00.000Z",
+              "startDate": "2025-01-20T00:00:00.000Z",
               "effort": 5,
               "isParallel": false
             },
             {
               "id": "team2_fe",
               "name": "Frontend Arch.",
-              "startDate": "2025-03-14T00:00:00.000Z",
+              "startDate": "2025-01-27T00:00:00.000Z",
               "effort": 5,
               "isParallel": false
             }
@@ -968,8 +968,8 @@
             {
               "id": "team8",
               "name": "Moneywars",
-              "startDate": "2025-02-03T00:00:00.000Z",
-              "effort": 19,
+              "startDate": "2025-01-24T00:00:00.000Z",
+              "effort": 7,
               "isParallel": false
             },
             {
